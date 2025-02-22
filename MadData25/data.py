@@ -5,7 +5,7 @@ df = pd.read_csv("/Users/aashishmankala/Desktop/MadData25/All_Countries.csv")
 
 print(df.head())
 
-openai.api_key = "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"
+openai.api_key = "..."
 def chat_with_gpt(prompt):
     try:
         response = openai.ChatCompletion.create(
