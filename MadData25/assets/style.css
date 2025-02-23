@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(234, 239, 207);
+}
+
+svg path{
+    fill: green;
+    stroke: #eee;
+    stroke-width: .25;
+}
+svg path:hover{
+    fill: white;
+    transition: 0.6s;
+    cursor: pointer;
+}
+
+div {
+    text-align: center;
+    font-size: 10vw;
+    font-family: 'Helvetica', serif;
+    padding-bottom: 40px;
+    color: black;
+}
+
+
